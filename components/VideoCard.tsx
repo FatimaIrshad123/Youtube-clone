@@ -5,7 +5,7 @@ export function VideoCard(props:any){
             <img className='rounded-xl'src={props.image}/>
             <div className="grid grid-cols-12 pt-2">
                 <div className="col-span-1 ">
-                    <img className= {'rounded-full w-8 h-8'}src={props.thumbnail}/>
+                    <img className= {'rounded-full w-12 h-8'}src={props.thumbnail}/>
                 </div>
                 <div className="col-span-11">
                     <div>
